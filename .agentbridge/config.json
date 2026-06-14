@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "codex": {
+    "appPort": 4500,
+    "proxyPort": 4501
+  },
+  "turnCoordination": {
+    "attentionWindowSeconds": 15
+  },
+  "idleShutdownSeconds": 30,
+  "budget": {
+    "enabled": true,
+    "pollSeconds": 300,
+    "pauseAt": 90,
+    "resumeBelow": 30,
+    "syncDriftPct": 10,
+    "parallel": {
+      "minRemainingPct": 60,
+      "timeWindowSec": 3600
+    },
+    "codexTierControl": false,
+    "codexTiers": {
+      "full": null,
+      "balanced": {
+        "effort": "medium"
+      },
+      "eco": {
+        "effort": "low"
+      }
+    },
+    "strategy": "conserve"
+  }
+}

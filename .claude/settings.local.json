@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_agentbridge_agentbridge__get_messages",
+      "mcp__plugin_agentbridge_agentbridge__reply",
+      "mcp__plugin_agentbridge_agentbridge__get_budget",
+      "mcp__plugin_agentbridge_agentbridge__reply_and_wait",
+      "Read(//Users/ywbw/Documents/Codex/2026-06-13/files-mentioned-by-the-user-codex/outputs/**)",
+      "Read(//Users/ywbw/Documents/Codex/**)"
+    ]
+  }
+}
